@@ -4,8 +4,6 @@ body {
   position: relative;
   background: url(./images/black-laptop-wallpapers.jpg) no-repeat; 
   background-size: cover;
-  background-position: center;
-  background-position-y: 60px;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -62,18 +60,18 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {
+.navbar-nav > li > Link {
   margin-right: 12px;
   margin-left: 12px;
   color: #fff !important;
   border-top: 3px solid #282c34;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.nav-link:active, .navbar-nav > li > a.nav-link:focus {
   border-top: 3px solid #f9ab00;  
 }
 
-.navbar-nav > li > a:hover {
+.navbar-nav > li > a.nav-link:hover {
   border-top: 3px solid #f9ab00;  
 }
 
