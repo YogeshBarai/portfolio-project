@@ -1,3 +1,9 @@
+
+
+body {
+  font-family: "Roboto Condensed" sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  width: 150px;
+}
+
+nav a.nav-link {
+  font-weight: 250;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #fff !important;
+  border-top: 3px solid #282c34;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top: 3px solid #f9ab00;  
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 3px solid #f9ab00;  
 }
