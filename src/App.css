@@ -1,7 +1,12 @@
 
 
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  position: relative;
+  background: url(./images/black-laptop-wallpapers.jpg) no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-position-y: 60px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .App {
@@ -70,4 +75,23 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 3px solid #f9ab00;  
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-info h1 {
+  color: #f9ab00;
+  text-transform: uppercase;
+}
+
+.typed-text {
+  font-size: 32px;
+  color: #fff;
 }
