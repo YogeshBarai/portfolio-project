@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useAPI } from '../api/apiContent';
 
 const Homepage = () => {
 
+    const FetchData = () => {
+        const { data, isLoading } = useAPI();
+        
+        const names = data.map(eachPortfolio => {
+            return eachPortfolio.name;
+            
+        });
+        
+        return names;
+    }
+
     return (
         <>
-            <h1>Yogesh</h1>
+            {FetchData().map(eachName => {
+                return <li>{eachName}</li>
+            })}
         </>
     )
 }

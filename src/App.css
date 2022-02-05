@@ -1,14 +1,6 @@
 
-
 body {
-  position: relative;
-  background: url(./images/black-laptop-wallpapers.jpg) no-repeat; 
-  background-size: cover;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.App {
-  text-align: center;
+  background-color: lightgrey !important;
 }
 
 .App-logo {
@@ -20,17 +12,6 @@ body {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -73,23 +54,4 @@ nav ul li {
 
 .navbar-nav > li > a.nav-link:hover {
   border-top: 3px solid #f9ab00;  
-}
-
-.main-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.main-info h1 {
-  color: #f9ab00;
-  text-transform: uppercase;
-}
-
-.typed-text {
-  font-size: 32px;
-  color: #fff;
 }
