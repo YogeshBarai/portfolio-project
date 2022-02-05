@@ -1,0 +1,49 @@
+{
+    "portfolios": [
+        {
+            "name": "Yogesh Barai",
+            "image": "D:\\Projects\\yogeshbarai\\src\\images\\portfolios\\YogeshB.jpg",
+            "introduction": "This is my intro.",
+            "qualification": [
+                {
+                    "degree": "MSc",
+                    "university": "Kuvempu University",
+                    "major": "Information Technology",
+                    "year": 2012
+                },
+                {
+                    "degree": "BSc",
+                    "university": "Mumbai University",
+                    "major": "Computer Science",
+                    "year": 2004
+                }
+            ],
+            "work-experience": [
+                {
+                    "company": "UBS BSC India",
+                    "current": "yes",
+                    "from_date": "2021-08-01"
+                },
+                {
+                    "company": "Cognizant",
+                    "current": "no",
+                    "from_date": "2010-01-01",
+                    "to_end": "2021-07-31"
+                }
+            ]
+        },
+        {
+            "name": "Aarti Barai",
+            "image": "D:\\Projects\\yogeshbarai\\src\\images\\portfolios\\YogeshB.jpg",
+            "introduction": "This is Aarti's intro.",
+            "qualification": [
+                {
+                    "degree": "BCom",
+                    "university": "Mumbai University",
+                    "major": "Commerce",
+                    "year": 2006
+                }
+            ]
+        }
+    ]
+}
