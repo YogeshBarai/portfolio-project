@@ -2,8 +2,9 @@
     "portfolios": [
         {
             "name": "Yogesh Barai",
-            "image": "D:\\Projects\\yogeshbarai\\src\\images\\portfolios\\YogeshB.jpg",
-            "introduction": "This is my intro.",
+            "image": "\\images\\portfolios\\Yogesh_Large.png",
+            "summary": "Software developer & Data Analytics Enthuciast!",
+            "introduction": "A Computer Science graduate from Mumbai University with 15+ years of overall experience in IT industry across various roles. Good hands-on experience in Python, SQL, RectJS, NodeJS. Also, involved in creating interactive user dashboards using Tableau and PowerBI.",
             "qualification": [
                 {
                     "degree": "MSc",
@@ -29,19 +30,6 @@
                     "current": "no",
                     "from_date": "2010-01-01",
                     "to_end": "2021-07-31"
-                }
-            ]
-        },
-        {
-            "name": "Aarti Barai",
-            "image": "D:\\Projects\\yogeshbarai\\src\\images\\portfolios\\YogeshB.jpg",
-            "introduction": "This is Aarti's intro.",
-            "qualification": [
-                {
-                    "degree": "BCom",
-                    "university": "Mumbai University",
-                    "major": "Commerce",
-                    "year": 2006
                 }
             ]
         }

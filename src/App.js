@@ -14,9 +14,9 @@ function App() {
           <BrowserRouter>
             <Navbar />
               <Routes>
-                <Route path="/home" element={<Homepage />} />
-                <Route path="/header" element={<Header />} />
-                <Route path="/about-me" element={<AboutMe />} />
+                <Route path="/" element={<Homepage />} exact/>
+                <Route path="/header" element={<Header />} exact/>
+                <Route path="/about-me" element={<AboutMe />} exact/>
               </Routes>
           </BrowserRouter>
       </APIContextProvider >

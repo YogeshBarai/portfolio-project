@@ -1,9 +1,10 @@
 import React from 'react';
 
-const PortfolioImage = () => {
+
+const PortfolioImage = ( { className, picUrls, alt }) => {
 
     return (
-        <div>Image to be displayed...</div>
+        <img className={ className } src={ picUrls } alt={ alt }/>
     );
 }
 
