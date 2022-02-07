@@ -1,0 +1,37 @@
+{
+    "portfolios": [
+        {
+            "name": "Yogesh Barai",
+            "image": "\\images\\portfolios\\Yogesh_Large.png",
+            "summary": "Software developer & Data Analytics Enthuciast!",
+            "introduction": "A Computer Science graduate from Mumbai University with 15+ years of overall experience in IT industry across various roles. Good hands-on experience in Python, SQL, RectJS, NodeJS. Also, involved in creating interactive user dashboards using Tableau and PowerBI.",
+            "qualification": [
+                {
+                    "degree": "MSc",
+                    "university": "Kuvempu University",
+                    "major": "Information Technology",
+                    "year": 2012
+                },
+                {
+                    "degree": "BSc",
+                    "university": "Mumbai University",
+                    "major": "Computer Science",
+                    "year": 2004
+                }
+            ],
+            "work-experience": [
+                {
+                    "company": "UBS BSC India",
+                    "current": "yes",
+                    "from_date": "2021-08-01"
+                },
+                {
+                    "company": "Cognizant",
+                    "current": "no",
+                    "from_date": "2010-01-01",
+                    "to_end": "2021-07-31"
+                }
+            ]
+        }
+    ]
+}
