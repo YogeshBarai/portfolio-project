@@ -82,6 +82,7 @@ ul.timeline {
   list-style-type: none;
   position: relative;
 }
+
 ul.timeline:before {
   content: ' ';
   background: #d4d9df;
@@ -107,4 +108,8 @@ ul.timeline > li:before {
   width: 20px;
   height: 20px;
   z-index: 400;
+}
+
+a.designation{
+  padding-right: 50%;
 }
