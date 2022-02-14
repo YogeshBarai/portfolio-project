@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Nav = () => {
 
@@ -11,7 +13,10 @@ const Nav = () => {
                             <img src="/images/logo.png" alt="Yogesh Barai" />
                         </div>
                     </ul>
-                    <ul className='navbar__right'>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
+                    </button>
+                    <ul className='navbar__right' id='navbarSupportedContent'>
                         <li><a href="#homepage" >Home</a></li>
                         <li><a href="#services" >Services</a></li>
                         <li><a href="#about-me" >About Me</a></li>
