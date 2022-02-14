@@ -1,123 +1,197 @@
-
-body {
-  background-color: lightgrey !important;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.logo {
-  width: 150px;
-}
-
-.navbar{
-  position: top;
+.header {
   width: 100%;
-  background: black;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
 }
 
-nav a.nav-link {
-  color: white;
-  font-weight: 500;
-  letter-spacing: 0.6px;
-  cursor: pointer;
-  transition: color 0.5s ease;
-}
-
-.sticky-nav {
-  position: sticky;
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
   top: 0;
+  z-index: 1;
+  background-image: linear-gradient(white, rgba(0, 0, 0));
 }
 
-nav ul li {
-  text-transform: uppercase;
+.navbar__container{
+  display: flex;
+  padding-top: 25px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbar-nav > li > a.nav-link:hover {
-  color: red;
+.navbar__left-logo img{
+  width: 200px;
 }
 
-div.main-content{
-  text-align: center;
-  align-self: center;
-
-}
-
-.img-sized{
-  max-width: 80%;
-  max-height: 50%;
-  z-index: auto;
-}
-
-h1.align-left{
-  text-align: left;
-  text-decoration: wavy;
-}
-
-h1.align-right{
-  text-align: right;
-  text-decoration: wavy;
-}
-
-h1.align-center{
-  text-align: center;
-}
-
-h5.summary{
-  text-align: center;
-  font-style: italic;
-}
-
-span.first-name{
-  color: red;
-  font-style: italic;
-}
-
-p.introduction{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-}
-
-
-/* TIMELINE CSS FOR WORK EXP */
-ul.timeline {
+.navbar__right{
+  display: flex;
   list-style-type: none;
-  position: relative;
+  padding-right: 100px;
 }
 
-ul.timeline:before {
-  content: ' ';
-  background: #d4d9df;
-  display: inline-block;
-  position: absolute;
-  left: 29px;
-  width: 2px;
-  height: 100%;
-  z-index: 400;
+.navbar__right li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 15px;
 }
-ul.timeline > li {
-  margin: 20px 0;
-  padding-left: 20px;
+
+.navbar__right li a:hover{
+  color: crimson;
 }
-ul.timeline > li:before {
-  content: ' ';
-  background: white;
-  display: inline-block;
-  position: absolute;
+
+.container{
+  padding-left: 100px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.col-4{
+  width: 33%;
+}
+
+.header__content{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.header__ul{
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.header__ul li{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 1px solid brown;
   border-radius: 50%;
-  border: 3px solid #22c0e8;
-  left: 20px;
-  width: 20px;
-  height: 20px;
-  z-index: 400;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
 }
 
-a.designation{
-  padding-right: 50%;
+.header__ul li:first-child{
+  margin-left: 0;
+}
+
+.header__ul li a{
+  color: white;
+}
+
+.header__section h1{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header__section p{
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+
+.btn{
+  border: none;
+  outline: none;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-outline{
+  border: 2px solid crimson;
+  border-radius: 20px;
+  padding: 10px 40px;
+}
+
+.banner__img{
+  padding: 0 30px;
+  margin-top: 150px;
+}
+
+.banner__img img{
+  border-radius: 500px;
+}
+
+.services{
+  background: #1f2235;
+  padding: 100px 0;
+  color: white;
+}
+
+.common{
+  width: 35%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading{
+  font-size: 32px;
+  font-weight: 500;
+  color: #ff4a57;
+  margin-bottom: 20px;
+}
+
+.services__content{
+  font-size: 16px;
+  color: #dfdfdf;
+}
+
+.services__border {
+  background-color: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.services__box {
+  background: #23263a;
+  padding: 40px;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.services__box-header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.services__box-p {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.commonIcons{
+  font-size: 40px;
+  color: #ff4a57;
+  margin-bottom: 15px;
 }

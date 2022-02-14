@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-    const [links, setLinks] = useState(navbar);
+    const [links] = useState(navbar);
     
     return (
         <nav className="navbar navbar-expand-lg sticky-nav">

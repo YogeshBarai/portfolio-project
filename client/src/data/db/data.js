@@ -3,6 +3,23 @@ export const dataDB = {
     "image": "Yogesh_Large.png",
     "summary": "Love to explore new things!",
     "introduction": "A Computer Science graduate from Mumbai University with 15+ years of overall experience in IT industry across various roles. Good hands-on experience in Python, SQL, RectJS, NodeJS. Also, involved in creating interactive user dashboards using Tableau and PowerBI.",
+    "interests": [{
+        "Web Development": {
+            "pitch": "Experienced in creating responsive and scalable we applications using latest technologies - ReactJS, Bootstrap, HTML5, JavaScripts"
+        },
+        "Python Developer": {
+            "pitch": "Experienced in implementing data analytics, web scrapping, financial predictive models, and even data ETL process using Python and its libraries."
+        },
+        "Interactive Dashboards": {
+            "pitch": "Used Tableau, PowerBI for developing interactive dashboards"
+        },
+        "Desktop Publishing": {
+            "pitch": ""
+        },
+        "Greeting Cards": {
+            "pitch": ""
+        }
+    }],
     "qualification": [
         {
             "degree": "MSc",
