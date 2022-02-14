@@ -16,29 +16,37 @@ body {
   width: 150px;
 }
 
+.navbar{
+  position: top;
+  width: 100%;
+  background: black;
+}
+
 nav a.nav-link {
-  font-weight: 250;
+  color: white;
+  font-weight: 500;
   letter-spacing: 0.6px;
   cursor: pointer;
+  transition: color 0.5s ease;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
 }
 
 nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > Link {
-  margin-right: 12px;
-  margin-left: 12px;
-  color: #fff !important;
-  border-top: 3px solid #282c34;
-}
-
-.navbar-nav > li > a.nav-link:active, .navbar-nav > li > a.nav-link:focus {
-  border-top: 3px solid #f9ab00;  
-}
-
 .navbar-nav > li > a.nav-link:hover {
-  border-top: 3px solid #f9ab00;  
+  color: red;
+}
+
+div.main-content{
+  text-align: center;
+  align-self: center;
+
 }
 
 .img-sized{

@@ -9,7 +9,7 @@ const Navbar = () => {
     const [links, setLinks] = useState(navbar);
     
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg sticky-nav">
             <div className='container'>
                 <a className="navbar-brand" href="/">
                     <img className='logo' src={ `./images/` + "logo.png" } alt="logo" />

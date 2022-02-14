@@ -1,7 +1,7 @@
 export const dataDB = {
     "name": "Yogesh Barai",
     "image": "Yogesh_Large.png",
-    "summary": "Software developer & Data Analytics Enthuciast!",
+    "summary": "Love to explore new things!",
     "introduction": "A Computer Science graduate from Mumbai University with 15+ years of overall experience in IT industry across various roles. Good hands-on experience in Python, SQL, RectJS, NodeJS. Also, involved in creating interactive user dashboards using Tableau and PowerBI.",
     "qualification": [
         {
@@ -22,7 +22,7 @@ export const dataDB = {
             "company": "UBS BSC India",
             "current": "yes",
             "from_date": "2021-08-01",
-            "designation": "Director",
+            "designation": "Technology Research Associate",
             "responsibility": "Built front to back web based solution for research analyst to maintain research products using ReactJS, NodeJS, Postgres technologies. Hands-on experience in coding React components. Hands-on experience in creating API using NodeJS. Built data and reporting infrastructure from ground up using Tableau / Power BI to provide real-time insights into the reports, marketing campaign and performance KPIs. Created data sourcing pipeline using Python and Apache Airflow (previously done using APScheduler – Python based scheduling library). Client segmentation based on subscription and investment pattern. Helped improve penetration of research reports to appropriate client segment. Automated data cleaning and integration using Python scripts"
         },
         {

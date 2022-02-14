@@ -4,6 +4,6 @@ export const navbar = [
     {
         id: uuidv4(),
         title: "work experience",
-        url: "/work-exp",
+        url: "#work-exp",
     },
 ]

@@ -18,7 +18,7 @@ const WorkExperience = () => {
                         {FetchWorkExp().map((eachWorkExp, index) => {
                                 return (
                                     <Accordion.Item eventKey={index} key={index}>
-                                        <Accordion.Header>{eachWorkExp.company}</Accordion.Header>
+                                        <Accordion.Header>{eachWorkExp.company} - {eachWorkExp.designation}</Accordion.Header>
                                         <Accordion.Body>
                                             <div className="mb-3">
                                                 <b>From Date:</b> {eachWorkExp.from_date}
